@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+    .box {
+        @apply bg-white border border-slate-200/40 rounded-md relative overflow-y-auto;
+    }
+
+    .dark {
+        .box {
+            background-color: theme("backgroundColor.darkmode.600");
+            border-color: transparent;
+        }
+    }
+}

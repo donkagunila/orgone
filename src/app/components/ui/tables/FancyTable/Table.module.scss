@@ -1,0 +1,22 @@
+@import '../../../../../styles/variables';
+
+.tableWrapper {
+    border: 1px solid $primary;
+}
+
+.tableHeader {
+    border: 1px solid $primary-light;
+}
+
+.tableRow {
+    border-top-color: $primary-light;
+    border-top-width: 1px;
+}
+
+.tableRow> :not([hidden])~ :not([hidden]) {
+    border-color: $primary-light;
+}
+
+.oddColumn {
+    background-color: $primary-lighter;
+}

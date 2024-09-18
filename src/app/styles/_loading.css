@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+    .loading-page {
+        @apply bg-slate-200 rounded-md min-h-[330px] flex justify-center items-center flex-col;
+        height: calc(100vh - 7rem);
+        padding: 16px;
+        margin: 16px;
+    }
+
+}

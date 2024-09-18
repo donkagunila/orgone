@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@layer components {
+    .preview-space {
+        @apply bg-slate-100 border border-slate-200/70 rounded-md min-h-[330px];
+        padding: 12px;
+        margin: 12px;
+         margin-bottom: 1.5rem;
+    }
+    .preview-empty{
+         @apply h-full w-full bg-white flex justify-center items-center flex-col min-h-[330px] rounded-md;
+
+    }
+
+      .preview-sms{
+         @apply h-full w-full bg-white min-h-[330px] rounded-md;
+
+    }
+}

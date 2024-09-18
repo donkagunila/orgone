@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .btn-icon-delete{
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-icon-delete:hover, .btn-icon-delete:focus{
+       background-color: rgb(252 165 165) !important;
+       color:rgb(185 28 28) !important ;
+    }
+
+    .btn-icon-edit{
+        background-color: transparent;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-icon-edit:hover, .btn-icon-edit:focus{
+       background-color: rgb(147 197 253) !important;
+       color:rgb(29 78 216) !important ;
+    }
+}
+
+
+
